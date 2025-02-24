@@ -1,5 +1,5 @@
 wiring connections for
-traffic control system using the 
+object detection system using the 
 VSD Squadron Mini:
 
 1. HC-SR04 VCC → 5V (VSD Squadron Mini)  
