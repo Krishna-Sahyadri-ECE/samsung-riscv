@@ -3,8 +3,8 @@
 
 #define TRIG_PIN PC0  // Ultrasonic Trigger
 #define ECHO_PIN PC1  // Ultrasonic Echo
-#define RED_LED  PC2  // Red Traffic Light
-#define GREEN_LED PC3 // Green Traffic Light
+#define RED_LED  PC2  // Red  Light
+#define GREEN_LED PC3 // Green  Light
 
 // Function to trigger ultrasonic sensor
 void trigger_ultrasonic() {
@@ -34,7 +34,7 @@ void setup() {
     pinMode(GREEN_LED, OUTPUT);
     
     Serial.begin(115200); // Debugging via Serial Monitor
-    printf("Traffic Light System Initialized...\n");
+    printf("Light System Initialized...\n");
 }
 
 void loop() {
